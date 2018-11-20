@@ -14,6 +14,6 @@
  
  The code of this project has been optimized for readability.
  
- ## Conclusive remarks
+ ## Conclusive remark
  I performed to the best of my potential to meet the expected targets in the design process.
 
