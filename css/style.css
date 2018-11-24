@@ -1,0 +1,688 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+	font-family: Montserrat;
+}
+section
+{
+  width: 100%;
+  height: auto;
+}
+.container
+{
+  padding-right:15px;
+  padding-left:15px;
+  max-width:1150px;
+  margin: auto;
+}
+p
+{
+  font-family: inherit;
+  letter-spacing: 0.7px;
+  font-size: 14px;
+}
+.clearfix
+{
+  width: 100%;
+  height: 50px;
+  float: left;
+}
+.clearfix1
+{
+  width: 100%;
+  height: 35px;
+  float: left;
+}
+.style1
+{
+  border:none;
+  width: 50px;
+  height: 2px;
+  background-color: #f7600f;
+  margin: 15px auto;
+}
+#header
+{
+  width:100%;
+  height: auto;
+  background-image: url('../images/slider1.png');
+  background-position: center;
+  background-size: cover;
+  float: left;
+  background-attachment: fixed;
+}
+.overlay
+{
+	width: 100%;
+	height: 100%;
+	float: left;
+	background:rgba(0, 0, 0, 0.85);
+}
+.topnav
+{
+  overflow: hidden;
+  margin-top: 35px;
+}
+.topnav .logo
+{
+  width: 330px;
+  font-weight: 600;
+  font-family:inherit;
+  float: left;
+  color: #fff;
+  letter-spacing:1px;
+}
+.topnav .logo a
+{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px ;
+}
+.topnav .navbar
+{
+  width: 820px;
+  float: left;
+  text-align: right;
+}
+.topnav .navbar ul li
+{
+  display:inline-block;
+  padding: 10px 10px;
+}
+.topnav .navbar ul li a
+{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0.4px;
+}
+.topnav .navbar ul li a:hover 
+{
+  color:#f7600f;
+	transition: ease-in 0.5s;
+	text-decoration: none;
+}
+.jumbotron
+{
+  width: 100%;
+  max-width:800px;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+.jumbotron .title
+{
+  font-weight: 900;
+  font-size: 45px;
+  font-family: inherit;
+}
+.jumbotron button
+{
+  width: 200px;
+  padding: 13px 20px;
+  border: 1px solid #ccc;
+}
+button
+{
+  padding: 10px 35px;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #ccc;
+  margin-top:10px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 2px #efefef;
+  cursor: pointer;
+}
+button:hover
+{
+  background-color: #f7600f;
+  transition: ease-in 0.5s;
+}
+.angle_down a
+{
+  color: #fff;
+  box-shadow: 0px 0px 2px #efefef;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+.angle_down a:hover
+{
+  background: #f7600f;
+}
+.services
+{
+  width: 23%;
+  margin-left: 18px;
+  float: left;
+  height: 200px !important;
+ 	border-radius: 8px;
+	box-shadow: 0px 0px 25px #efefef;
+  text-align: center;
+  position: relative;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  transform-origin: 100% 213.5px;
+  padding-top: 30px !important;
+}
+.services:hover .icon .f_icon
+{
+  opacity: 0;
+}
+.services:hover  .services_2
+{
+  opacity: 1;
+  transform: rotateY(360deg);
+  transition: ease-in 0.5s;
+  transform-style: preserve-3d;
+}
+.services:hover  .services_1
+{
+  opacity: 0;
+  transition: ease-in 0.1s;
+}
+.services_2
+{
+  padding:30px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity:0;
+  backface-visibility: hidden;
+  background-color: #f7600f;
+  color: #fff;
+}
+.services:first-child
+{
+  margin-left: 18px;
+}
+.services .title
+{
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.services .content
+{
+  font-size: 13px;
+  padding: 0px 10px;
+}
+.services .icon
+{
+  color:#f7600f;
+  width:50px;
+  padding: 20px;
+  margin: auto;
+  border-radius:50px;
+  border: 1px solid #ccc;
+}
+.services:hover .icon
+{
+  color: #fff;
+}
+.aboutus .content, .add_services .content
+{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-left: -9px;
+  float: left;
+  background-color:#f7600f;
+  padding: 4px 5px 0px 4px;
+}
+.add_services .box
+{
+  width:300px;
+  float: left;
+  margin-top: 20px;
+}
+.add_services .box h5 , .main_services h5, #ourservices h5 , #our_services h5, .add_info  h5,
+ .teams  h5
+{
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.about_con
+{
+  max-width:600px;
+  float: left;
+  text-align: left;
+  color: #fff;
+  padding: 15px 15px;
+}
+.about_img
+{
+  width: 500px;
+  float: left;
+}
+.about_img img , #ourservices img, #our_services img
+{
+  width: 100%;
+}
+#ourservices img, #our_services img
+{
+  height: 160px; 
+}
+.main_services .services
+{
+  background-color: #f7600f;
+  color: #fff;
+  opacity: 0.8;
+  border-radius: 0px;
+  padding-top: 25px;
+}
+#our_services .services
+{
+  height: 310px;
+  padding-top: 0px;
+  margin-bottom: 40px;
+  padding-bottom: 25px;
+}
+.add_info .box
+{
+  width: 300px;
+  height: 170px;
+  float: left;
+  margin: 20px 35px;
+  background: #f7600f;
+  padding: 15px 5px;
+  color: #fff;
+  text-align: center;
+}
+.add_info .box:hover
+{
+  transform: scale(0.9);
+  background-color: #fff;
+  transition: ease-in 0.4s;
+  color: #f7600f;
+}
+.portfolio_item
+{
+  width: 22.2%;
+  height: 245px;
+  float: left;
+  text-align: center;
+  position: relative;
+  box-shadow: 0px 0px 35px #efefef;
+  margin-bottom: 15px;
+  position: relative;
+  margin-left: 25px;
+  border-radius: 7px;
+}
+.portfolio_item img
+{
+  width: 100%;height: 100%;
+  border-radius: 7px;
+}
+.portfolio_item .text
+{
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.portfolio_item .overlay1
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #f7600f;
+}
+.portfolio_item:hover .overlay1
+{
+  opacity: 0.9;
+}
+.portfolio_item:hover
+{
+  transition: all ease-out 0.5s;
+  border-radius: 2px;
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+.aboutus, .contactus, .testimonial, .main_services, .add_info
+{
+  width: 100%;
+  float: left;
+  background: url('../images/slider1.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+}
+.testimonial .overlay ,.contactus .overlay 
+{
+  background: rgba(59,68,77,0.9);
+}
+.m_team
+{
+  width: 21.2%;
+  margin-left: 3%;
+  float: left;
+  text-align: center;
+}
+.m_team img
+{
+  height: 250px;
+}
+.m_team i
+{
+  background-color: #303030;
+  padding: 9px 9px;
+  width: 18px;
+  height: 17px;
+  border-radius: 100%;
+  margin-left: 5px;
+  margin-top: 4px;
+  color: #fff;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.contactus
+{
+  float: left;
+}
+.contactus .content
+{
+  width: 800px;
+  margin: auto;
+}
+.contactus input
+{
+  width:350px;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+.contactus textarea
+{
+  width:735px;
+  height: 200px;
+  border: none;
+  padding: 10px 15px;
+  margin-top:10px;
+}
+#contact_us button
+{
+  background-color: #f7600f;
+}
+#footer
+{
+  width: 100%;
+  float: left;
+  background: #3b444d;
+  color: #fff;
+}
+#footer .clearfix
+{
+  height: 30px;
+}
+
+/*  portfolio */
+#filters 
+{
+  margin:1%;
+  padding:0;
+  list-style:none;
+}
+#filters li 
+{
+  float:left;
+}
+#filters li span 
+{
+  display: block;
+  padding:5px 20px;
+  text-decoration:none;
+  color:#666;
+  cursor: pointer;
+ }
+#filters li span.active 
+{
+  background: #f7600f;
+  color:#fff;
+}
+#portfoliolist .portfolio 
+{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  width:23%;
+  margin:1%;
+  display:none;
+  float:left;
+  overflow:hidden;
+}
+.portfolio-wrapper 
+{
+  overflow:hidden;
+  position: relative !important;
+  background: #666;
+  cursor:pointer;
+}
+.portfolio img 
+{
+  max-width:100%;
+  position: relative;
+  top:0;
+  -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+ }
+.portfolio .label 
+{
+  position: absolute;
+  width: 100%;
+  height:40px;
+  bottom:-40px;
+  -webkit-transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+ }
+.portfolio .label-bg 
+{
+  background: #f7600f;
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.portfolio .label-text 
+{
+  color:#fff;
+  position: relative;
+  z-index:500;
+  padding:5px 8px;
+}
+.portfolio .text-category 
+{
+  display:block;
+  font-size:9px;
+}
+.portfolio:hover .label 
+{
+  bottom:0;
+}
+.portfolio:hover img 
+{
+  top:-30px;
+}
+.teams .box
+{
+  width: 520px;
+  background-color: #f7600f;
+  float: left;
+  margin-left: 35px;
+  margin-bottom: 30px;
+  padding: 7px 7px 3px 7px;
+}
+.teams .team_img
+{
+  width: 180px;
+  float: left;
+}
+.teams .team_img img
+{
+  width: 100%;
+}
+.teams  .team_con
+{
+  width: 320px;
+  float: left;
+  padding: 10px;
+  color: #fff;
+}
+.teams  .team_con i
+{
+  margin-left: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+.contactus_box
+{
+  width: 380px;
+  float: left;
+  color: #fff;
+  background-color: rgba(0,0,0,0.5);
+  height: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+@media screen and (max-width: 780px) 
+{
+#header
+{
+  height: auto;
+}
+.container
+{
+  max-width: none;
+  margin: auto;
+}
+.topnav .navbar
+{
+  width: 100%;
+  float: left;
+  text-align:left;
+  background-color: #f7600f;
+  margin-top: 10px;
+}
+.topnav .navbar ul li
+{
+  width: 100%;
+  padding: 10px 15px;
+}
+.topnav .navbar ul li:hover
+{
+  background: #fff;
+}
+.topnav .navbar ul li:hover a
+{
+  color: #f7600f;
+}
+.topnav .logo
+{
+  width: 100%;
+  text-align: center;
+}
+.jumbotron
+{
+  float: left;
+}
+.jumbotron button
+{
+  width:150px;
+  padding: 10px 15px;
+}
+.jumbotron .clearfix:first-child
+{
+  display: none;
+}
+.services
+{
+  width:100%;
+  margin-left: 0px;
+  padding-top:35px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#ourservices .services ,.add_info .box
+{
+  width: 100%;
+  margin: 0px auto; padding: 15px 0px;
+  padding-bottom: 25px;
+  margin-bottom: 15px;
+}
+.aboutus .content,.add_services .content
+{
+  padding: 0px 0px 0px 0px;
+  margin-left: 0px;
+}
+.add_services .box
+{
+  width: 100%;
+  text-align: center;
+}
+.about_img
+{
+  width: 100%;
+}
+.portfolio_item
+{
+  width: 100%;
+  margin-left: 0px;
+}
+#filters 
+{
+  padding-bottom: 10px;
+}
+.teams .box
+{
+  background-color: #f7600f;
+  float: left;
+  margin-left: -3px;
+  margin-bottom: 30px;
+  padding: 3px 3px 3px 3px;
+}
+.teams .team_img, .teams .team_con,
+.teams .box
+{
+  width: 100%;
+}
+.teams .box
+{
+  margin-left: -3px !important;
+}
+.m_team
+{
+  width: 100%;
+  margin-left: 0%;
+  margin-bottom: 20px;
+}
+.contactus .content,.contactus input ,.contactus textarea
+{
+  width: 92%;
+}
+.contactus_box
+{
+  width: 100%;
+}
+}
