@@ -5,7 +5,7 @@
   
 ## Prerequisites
  Unzip the compressed zipped folder. Extract all the files. 
- Run the project by using index.html file.
+ Run the project by using index.html
 
 ## Project description
  The project covers basic web programming using technologies like HTML5, CSS3 and jQuery. 
