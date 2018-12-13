@@ -1,4 +1,4 @@
- # A website titled #CORBITALSOLUTIONS
+ # A website titled CORBITALSOLUTIONS
  
  ## Objective
  The purpose of the project is to create a user-friendly IT Services website. 
